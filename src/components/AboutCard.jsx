@@ -9,7 +9,7 @@ function AboutSection({ reverse = false, image, header, text }) {
         otherX = -1 * ximg;
     }
     const [ref,InView] = useInView({
-        threshold:0.5,
+        threshold:0.7,
         triggerOnce: true,
     })
     return (
