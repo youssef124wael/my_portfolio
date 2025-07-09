@@ -7,7 +7,7 @@ function ProjectCard(props) {
         initial={{opacity:0,scale:0}}
         whileInView={{opacity:1,scale:1}}
         exit={{opacity:0,scale:0}}
-        transition={{duration:1}}
+        transition={{duration:2}}
         viewport={{once:true}}
         >
             <img className='flex flex-grow w-full rounded h-[150px]' src={Beta.ImgUrl} alt='project' />
