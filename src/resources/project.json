@@ -1,0 +1,7 @@
+{
+    "projects": [
+        { "name": "Coursera scraping", "description": "here i scraped coursera website and got around 1000 course and after cleaning, analyzed around 900 course","category": "Data science","ImgUrl": "/coursera scraping.png","link":"https://github.com/youssef124wael/data-gathering-and-analysis-with-friends/blob/main/project/main.ipynb" },
+        { "name": "Image classification", "description": "made a CNN model that is able to differentiate between several animals","category": "Deep learning", "ImgUrl": "/image classification.png","link":"https://github.com/youssef124wael/Image-classification/blob/main/main.ipynb"},
+        { "name": "WeRateDogs analysis and modeling", "description": "i am a student in level 3 digital egypt cubs initiative got a dataset about the WeRateDogs account and was asked to clean and analyze it, extracted benefecial insights from the dataset ","category": "Data science","ImgUrl": "/DECI project.jpg","link":"https://github.com/youssef124wael/DECI_project" }
+    ]
+}
