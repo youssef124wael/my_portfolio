@@ -6,7 +6,7 @@ function SkillsBar({ skill, precent }) {
 
     useEffect(() => {
         const handleResize = () => {
-            setBarWidth(window.innerWidth < 768 ? 400 : 600);
+            setBarWidth(window.innerWidth < 768 ? 200 : 600);
         };
 
         handleResize(); // set initial value
