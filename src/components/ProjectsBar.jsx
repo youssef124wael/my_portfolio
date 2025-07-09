@@ -23,7 +23,7 @@ function ProjectsBar(props) {
                     <li
                         key={tab}
                         className={`
-                            cursor-pointer px-4 py-2 w-full rounded-full text-center transition-colors text-white duration-300
+                            cursor-pointer px-4 max-md:text-[20px] py-2 w-full rounded-full text-center transition-colors text-white duration-300
                             ${activeTab === idx 
                                 ? 'bg-blue-600 shadow-md' 
                                 : 'bg-transparent hover:bg-blue-400'}
